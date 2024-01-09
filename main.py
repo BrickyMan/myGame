@@ -19,6 +19,8 @@ clock = pygame.time.Clock()
 background = pygame.image.load("background.png")
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
+print('test')
+
 class SpaceShip(pygame.sprite.Sprite):
     def __init__(self, image, x, y, speed, shoot_cd = TICKRATE):
         super().__init__()
